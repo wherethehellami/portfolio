@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(/portfolio/img/Untitled\ design.png);
+}
+.navigation {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+li , a{
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Share Tech Mono', monospace;
+         color: antiquewhite;
+         text-transform: uppercase;
+     text-decoration: none;
+    margin-right: 20px;
+    transition: all 0.3s ease-in;
+}
+a:hover{
+    border-bottom: 4px solid rgb(193, 66, 66);;
+}
+.nav_links {
+  list-style: none;
+  margin-right: 30px;
+  display: flex;
+}
+.about{
+  font-family: 'Neonderthaw', cursive;
+  font-family: 'Share Tech Mono', monospace;
+  color:white;
+  justify-content: center;
+  display: block;
+  width: 30%;
+}
+span{
+  background: linear-gradient(90deg,#d80b4f,#dd1919);
+  background-clip: text;
+  -webkit-background-clip: text;
+ 
+  color: transparent;
+  filter: grayscale(100%);
+   font-size: 30px;
+   transition: filter 800ms;
+ }
+ span:hover{
+   filter: grayscale(0%);
+ }
+.logo {
+  height: 80px;
+}
+.social{
+     margin: 20px;   
+}
+body {
+  background-color:#d34c65;
+  text-align:center;
+}
+
+.social {
+  display: grid;
+  margin:10;
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+
+/* Icons */
