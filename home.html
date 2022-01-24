@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="social.css">
+    <link rel="stylesheet" href="social.css" />
     <link
       rel="stylesheet"
       href="https://kit.fontawesome.com/cf05e49e5f.js"
@@ -15,6 +15,8 @@
   </head>
   <body>
     <header class="navigation">
+      <!-- #################################################################### -->
+      <!-- Left-side Navigation Menu -->
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
           >&times;</a
@@ -24,7 +26,6 @@
         <a href="#" class="iconns">#demo</a>
         <a href="#" class="iconns">#demo</a>
       </div>
-
       <span class="logo" onclick="openNav()"
         >&times;
         <img
@@ -35,6 +36,8 @@
           alt=""
         />
       </span>
+            <!-- #################################################################### -->
+        <!-- for right-Side Navigation -->
       <nav>
         <ul class="nav_links">
           <li>
@@ -50,14 +53,24 @@
         </ul>
       </nav>
     </header>
+    <!-- #################################################################### -->
+    <!-- for Social navigator -->
     <div class="social">
-      <a href="" class="soc">
+      <a href="https://github.com/wherethehellami" target="_blank" class="soc">
         <i class="fab fa-github"></i> </a
-      ><a href="" class="soc">
+      ><a
+        href="https://www.instagram.com/f___aizan/"
+        target="_blank"
+        class="soc"
+      >
         <i class="fab fa-instagram"></i>
       </a>
     </div>
+    <!-- #################################################################### -->
   </body>
+
+  <!-- #################################################################### -->
+  <!-- Left-side navigation Logic -->
   <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
@@ -67,6 +80,8 @@
       document.getElementById("mySidenav").style.width = "0";
     }
   </script>
+  <!-- #################################################################### -->
+
   <script
     src="https://kit.fontawesome.com/cf05e49e5f.js"
     crossorigin="anonymous"
