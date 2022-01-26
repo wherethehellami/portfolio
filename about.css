@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Neonderthaw&family=Share+Tech+Mono&display=swap");
+
+.about {
+  width: 35%;
+  color: #D0C9C9;
+  opacity: 0.8;
+  margin: 35px 40px;
+  padding: 9px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.about:hover{
+  box-shadow: -11px -11px 22px rgba(228, 57, 57, 0.524),
+  11px 13px 22px rgba(255, 0, 43, 0.929),
+  inset -11px -11px 28px rgba(182, 62, 62, 0.39),
+  inset 11px 11px 28px rgba(163, 169, 180, 0.445);
+  transition: all 800ms ease-in;
+}
+.👍 {
+  background: linear-gradient(90deg, #f10909, #f30a3c);
+  background-clip: text;
+  font-size: 26px;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: filter 800ms;
+  justify-content: flex-end;
+}
+h1 {
+  font-size: 20px;
+}
+p,
+H1 {
+  color: #ffffff;
+  font-family: "Major Mono Display", monospace;
+  font-family: "Neonderthaw", cursive;
+  font-family: "Share Tech Mono", monospace;
+}
